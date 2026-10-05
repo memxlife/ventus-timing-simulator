@@ -1,0 +1,22 @@
+{
+  "scope": "Host-only endpoint/timer instrumentation; reused unchanged RTL archive",
+  "source_sha256": "bb1204f7dfd218a90534843b561d2d358dc02eae52c382bd7bfb017a0cfe0ce6",
+  "executable_sha256": "a1fd2de951f2b5da2d21e19dc03e61e36172b0dc99223bfe0bf2f65dbdd52765",
+  "objects": {
+    "cmdarg.o": "4a5994a085389a59e5ab4055baeafcf4f9570378cad614db612b2dac45e1acf4",
+    "cta_sche_wrapper.o": "40c879ba4eb06d7d3bfed7b9fc7cc3c26d6af2801d527ee9741db4a5cb63fa2f",
+    "kernel.o": "61d8965d4bc35225c751862d24883675641756578dee35279bf964f0b4ab40af",
+    "physical_mem.o": "b075bd545660b43bcba63bf6abbc9d278ecab353df5f1304cbbb88e9c252bddc",
+    "rtl_parameters.o": "76040f0494a86fc3a7c9aaa75a9e54b683d39547aeb169273760d8dadc6a58d5",
+    "ventus_rtlsim.o": "70ce762d788d0ad8cee8fe28d6bfad2d01a08d8f5c8c15e0d58449822040df38",
+    "ventus_rtlsim_impl.o": "a228d58632d82c06097f849cf90d70c935d8b0717b05f6bdb2147c4d05425d89",
+    "verilated_fst_c.o": "660f99a0b0122db011725b044fa96a434270f9d489afce36a5c199adc2cb1fdd",
+    "verilated_threads.o": "d3cc34167fcc43fb3dbb285ed127d45ed36dd8bfcddc087287b99d2ce1fe8518",
+    "verilated_no_diagnostic.o": "01b1a81630ecd4a275cfe118ddcd58ada603d3eafe44d3e74205128030507d17",
+    "Vdut__ALL.a": "6aa5c3e1e2e2e55f5e94fcfd63d2b75c311e0ba9e55ca5013001af0a8e466a61"
+  },
+  "waveform": false,
+  "fixed_drain_removed": true,
+  "diagnostic_runtime_source_sha256": "6e0695896cfd0dee034e24d57d7cb3e53acaead3a7d8015f1ae12bf02e79b728",
+  "diagnostic_change": "Only two VL_FWRITEF_NX formatting/output bodies disabled; all RTL state and numerical logic unchanged"
+}

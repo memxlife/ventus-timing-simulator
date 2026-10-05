@@ -1,0 +1,102 @@
+{
+  "scope": "Standalone extraction of bounded timing-only model and selected validation evidence",
+  "upstream": {
+    "ventus": {
+      "url": "https://github.com/THU-DSP-LAB/ventus-gpgpu",
+      "commit": "681172541a8a34ffb43c483a19c075acbc11a4eb",
+      "license": "MulanPSL-2.0; see retained upstream NOTICE for file exceptions"
+    },
+    "inclusive_cache": {
+      "url": "https://github.com/chipsalliance/rocket-chip-inclusive-cache",
+      "commit": "e5c74c0170c156cbe540fb597381e1a29fcf8248",
+      "license": "Apache-2.0"
+    }
+  },
+  "source_files": {
+    "include/execution_system.hpp": {
+      "original_relative_path": "dual_approach/top_down/execution_system.hpp",
+      "original_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5"
+    },
+    "include/memory_system.hpp": {
+      "original_relative_path": "event_simulator/memory_system.hpp",
+      "original_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+    },
+    "src/main.cpp": {
+      "original_relative_path": "dual_approach/top_down/run_execution.cpp",
+      "original_sha256": "6dc91907ed1c721181fa376f210ca2fddeb28feff5ba5d11d3c977bd5d02c15e"
+    },
+    "src/benchmark.cpp": {
+      "original_relative_path": "event_simulator/benchmark_execution.cpp",
+      "original_sha256": "369dac4f5ecb57baf06f36255d34969f0b4bbce602d0ae36ea48e7a2492470be"
+    }
+  },
+  "standalone_changes": [
+    "Include paths",
+    "Copyright and attribution comments",
+    "Build and validation scripts",
+    "Standalone documentation"
+  ],
+  "programs": {
+    "original": {
+      "original_program_sha256": "c5d88532a9dd6c9aa2092ec8c31765c1f8877cd5964b2d2c2768c6af611dc7dd",
+      "original_rtl_events_sha256": "557b4b7807885409370efce1e14438cb4b036fe6b2d5b619a70518a32899773b",
+      "selected_execution_events": 174,
+      "physical_writes": 16,
+      "host_return": [
+        3585
+      ],
+      "completion": 35070
+    },
+    "delay1": {
+      "original_program_sha256": "8d627f2d5eff650799bba6d1d4e5077b4de66c1e6b6f422da51b291f8fe1dac0",
+      "original_rtl_events_sha256": "fa0b6050be08011bcf19949a1750262594868fc95655c97552518d1bb395baa8",
+      "selected_execution_events": 178,
+      "physical_writes": 16,
+      "host_return": [
+        3625
+      ],
+      "completion": 4190
+    },
+    "delay16": {
+      "original_program_sha256": "12a92e93dd00941e0fe283e9cd37e22650c844b22e82708a759b14cb4cf97a25",
+      "original_rtl_events_sha256": "8686e03b57f25ef67f160876f33eceb3ce47abd0b91cded5fcb6959e9ac0e1ff",
+      "selected_execution_events": 238,
+      "physical_writes": 16,
+      "host_return": [
+        4225
+      ],
+      "completion": 4225
+    },
+    "full-software": {
+      "original_program_sha256": "20529a6b24d1c5573e07feb0d4fb660be542c8aab87925ccfbb629d9b96b5a58",
+      "original_rtl_events_sha256": "3691542d19c1bee718dbaadd4aa0abcbef97b60c137d17fee13d027faed85d5b",
+      "selected_execution_events": 174,
+      "physical_writes": 16,
+      "host_return": [
+        4115
+      ],
+      "completion": 4430
+    },
+    "timing-bound": {
+      "original_program_sha256": "9d2b48a7046a4eed099390d6dae730455880c0cd8fc2ee0cb1a1ce650a840156",
+      "original_rtl_events_sha256": "c5a35286752da2acb2cef801d928506ffb3d8167976f0d2d7fdb10eba18625df",
+      "selected_execution_events": 174,
+      "physical_writes": 16,
+      "host_return": [
+        3665
+      ],
+      "completion": 35150
+    },
+    "store-spacing": {
+      "original_program_sha256": "25dd7d938aefccf6232858c8507878af97742b5ff10a9cf2e96552a05cce6de0",
+      "original_rtl_events_sha256": "b7bc5f8e4b7b1a0cba5d3678a3ac82e297ef7137b8ac39e60c6fe34184f8dc00",
+      "selected_execution_events": 174,
+      "physical_writes": 16,
+      "host_return": [
+        3625
+      ],
+      "completion": 4150
+    }
+  },
+  "historical_receipts": "Archived original hashes describe original source paths and binaries, not the standalone build."
+}

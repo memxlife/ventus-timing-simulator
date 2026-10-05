@@ -1,0 +1,593 @@
+{
+  "scope": "Six fixed cold-state machine programs; same endpoint=max(host return,last physical output write)",
+  "results": [
+    {
+      "run": "original",
+      "endpoint_time": 35070,
+      "fixture_sha256": {
+        "instructions.json": "7cd433be9727ed191652d0a99f7259705833d62651224b7c7500a3b5f0178e19",
+        "matmul.metadata": "b85b8681737e2963d6cfff9d4b2af5b683174a3eddad1598afca36841fdbe4f7",
+        "matmul.data": "0e116fc69c2e76a1715f159db95668df266ce8af495f445c10a1711901753f48",
+        "oracle.json": "a182f1cf3cd633ddcc93e7a238596214e42b018cbc7557f2bb3ec867f16ffe56"
+      },
+      "program_sha256": "f857c4a8a4f2fe8205573cf04ca60c4dc5d8f996743ffaeef4c5a2d648e50d8b",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 429559833,
+          "rtl_process_ns": 439301208,
+          "cpp_single_body_ns": 168750,
+          "cpp_process_ns": 3148375,
+          "cpp_batch_body_per_run_ns": 110755.83,
+          "cpp_batch_process_ns": 13368625,
+          "cpp_parse_ns": 30417
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 433978083,
+          "rtl_process_ns": 443317333,
+          "cpp_single_body_ns": 185458,
+          "cpp_process_ns": 2981375,
+          "cpp_batch_body_per_run_ns": 113858.75,
+          "cpp_batch_process_ns": 13799792,
+          "cpp_parse_ns": 34292
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 424439250,
+          "rtl_process_ns": 434079375,
+          "cpp_single_body_ns": 191167,
+          "cpp_process_ns": 3062708,
+          "cpp_batch_body_per_run_ns": 116303.33,
+          "cpp_batch_process_ns": 14039083,
+          "cpp_parse_ns": 30125
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 431317875,
+          "rtl_process_ns": 440825666,
+          "cpp_single_body_ns": 168292,
+          "cpp_process_ns": 3008167,
+          "cpp_batch_body_per_run_ns": 115186.25,
+          "cpp_batch_process_ns": 14029209,
+          "cpp_parse_ns": 28666
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 426597459,
+          "rtl_process_ns": 435780250,
+          "cpp_single_body_ns": 178541,
+          "cpp_process_ns": 2984750,
+          "cpp_batch_body_per_run_ns": 115612.08,
+          "cpp_batch_process_ns": 14423584,
+          "cpp_parse_ns": 29417
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 439645500,
+          "rtl_process_ns": 449246708,
+          "cpp_single_body_ns": 181000,
+          "cpp_process_ns": 2987250,
+          "cpp_batch_body_per_run_ns": 118217.5,
+          "cpp_batch_process_ns": 14860209,
+          "cpp_parse_ns": 29250
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 425480834,
+          "rtl_process_ns": 434604166,
+          "cpp_single_body_ns": 160917,
+          "cpp_process_ns": 3144375,
+          "cpp_batch_body_per_run_ns": 118862.5,
+          "cpp_batch_process_ns": 14368250,
+          "cpp_parse_ns": 28000
+        }
+      ],
+      "median_rtl_body_ns": 429559833,
+      "median_cpp_body_ns": 178541,
+      "median_cpp_batch_body_ns": 115612.08,
+      "body_speed_ratio": 2405.945037834447,
+      "median_rtl_process_ns": 439301208,
+      "median_cpp_process_ns": 3008167,
+      "process_speed_ratio": 146.0361768478944,
+      "cpp_last_rising_time": 35065,
+      "cpp_steps": 433,
+      "cpp_skipped": 3072
+    },
+    {
+      "run": "delay1",
+      "endpoint_time": 4190,
+      "fixture_sha256": {
+        "instructions.json": "3c79dbc9f648c740e7011252b871ca646a197b7560340517dae94b9654a9914f",
+        "matmul.metadata": "e305e62ab69343eae9c95be61b17e0dc3bbfe18d46109ceb194e7ff51739a3b6",
+        "matmul.data": "0ebfa1dc41967e3e3bfe9243e8cf711c550a191cd617b6db598d683ade761542",
+        "oracle.json": "b8249ea8b0428cc2de711d40c2eb2decab4641e08e77baf5ce585a18fe39715c"
+      },
+      "program_sha256": "db6799f1119c1dcc9bc718707e9f4a4b70ed4b47b3ee6c52bd7af99689571f9d",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 52654292,
+          "rtl_process_ns": 61885916,
+          "cpp_single_body_ns": 168958,
+          "cpp_process_ns": 2970375,
+          "cpp_batch_body_per_run_ns": 109912.5,
+          "cpp_batch_process_ns": 13357833,
+          "cpp_parse_ns": 28834
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 52495750,
+          "rtl_process_ns": 61937000,
+          "cpp_single_body_ns": 161083,
+          "cpp_process_ns": 2940708,
+          "cpp_batch_body_per_run_ns": 108962.91,
+          "cpp_batch_process_ns": 13957209,
+          "cpp_parse_ns": 31542
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 55195000,
+          "rtl_process_ns": 64494625,
+          "cpp_single_body_ns": 167791,
+          "cpp_process_ns": 3039625,
+          "cpp_batch_body_per_run_ns": 110496.67,
+          "cpp_batch_process_ns": 13783458,
+          "cpp_parse_ns": 28875
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 56882708,
+          "rtl_process_ns": 65873125,
+          "cpp_single_body_ns": 162750,
+          "cpp_process_ns": 2926375,
+          "cpp_batch_body_per_run_ns": 112545.41,
+          "cpp_batch_process_ns": 13713333,
+          "cpp_parse_ns": 29084
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 58409666,
+          "rtl_process_ns": 67728167,
+          "cpp_single_body_ns": 177417,
+          "cpp_process_ns": 3069000,
+          "cpp_batch_body_per_run_ns": 108696.66,
+          "cpp_batch_process_ns": 13998500,
+          "cpp_parse_ns": 30625
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 53661541,
+          "rtl_process_ns": 63096459,
+          "cpp_single_body_ns": 165000,
+          "cpp_process_ns": 2902625,
+          "cpp_batch_body_per_run_ns": 106689.59,
+          "cpp_batch_process_ns": 13025333,
+          "cpp_parse_ns": 28583
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 53047250,
+          "rtl_process_ns": 62377792,
+          "cpp_single_body_ns": 181125,
+          "cpp_process_ns": 2901000,
+          "cpp_batch_body_per_run_ns": 114173.75,
+          "cpp_batch_process_ns": 14211917,
+          "cpp_parse_ns": 29167
+        }
+      ],
+      "median_rtl_body_ns": 53661541,
+      "median_cpp_body_ns": 167791,
+      "median_cpp_batch_body_ns": 109912.5,
+      "body_speed_ratio": 319.8117956267023,
+      "median_rtl_process_ns": 63096459,
+      "median_cpp_process_ns": 2940708,
+      "process_speed_ratio": 21.456213605703116,
+      "cpp_last_rising_time": 4185,
+      "cpp_steps": 417,
+      "cpp_skipped": 0
+    },
+    {
+      "run": "delay16",
+      "endpoint_time": 4225,
+      "fixture_sha256": {
+        "instructions.json": "4b70a5ef3bf6d9b7293c1eb3a723440879834dd5ad25a2ba3a60dc273d07e397",
+        "matmul.metadata": "398ca468821b69289a6589c79ec9e09299f2d53312f5928060670002fbd64bb6",
+        "matmul.data": "a3a76fce7a588683243b7872180b8ea9af76b00baec293f17914817d3e372520",
+        "oracle.json": "d1984b7af397227c0d80241991320664a1f8edc414249b96549453cf1a5db1f3"
+      },
+      "program_sha256": "d6d106f5a0f26175d66b3ac021e2291fe7f6f482d882e9d090043a853a7e0521",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 55331000,
+          "rtl_process_ns": 64711667,
+          "cpp_single_body_ns": 199666,
+          "cpp_process_ns": 3296000,
+          "cpp_batch_body_per_run_ns": 115512.91,
+          "cpp_batch_process_ns": 14135084,
+          "cpp_parse_ns": 32667
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 53940709,
+          "rtl_process_ns": 63583375,
+          "cpp_single_body_ns": 182875,
+          "cpp_process_ns": 3288542,
+          "cpp_batch_body_per_run_ns": 122615.42,
+          "cpp_batch_process_ns": 14898042,
+          "cpp_parse_ns": 36458
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 55246917,
+          "rtl_process_ns": 64650292,
+          "cpp_single_body_ns": 187709,
+          "cpp_process_ns": 3577458,
+          "cpp_batch_body_per_run_ns": 113587.92,
+          "cpp_batch_process_ns": 14013875,
+          "cpp_parse_ns": 49209
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 58356709,
+          "rtl_process_ns": 67633750,
+          "cpp_single_body_ns": 166625,
+          "cpp_process_ns": 3020250,
+          "cpp_batch_body_per_run_ns": 110663.33,
+          "cpp_batch_process_ns": 13409291,
+          "cpp_parse_ns": 30125
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 53156000,
+          "rtl_process_ns": 62606417,
+          "cpp_single_body_ns": 181000,
+          "cpp_process_ns": 2894958,
+          "cpp_batch_body_per_run_ns": 120795.0,
+          "cpp_batch_process_ns": 14946333,
+          "cpp_parse_ns": 29792
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 55619250,
+          "rtl_process_ns": 65024250,
+          "cpp_single_body_ns": 174333,
+          "cpp_process_ns": 2810000,
+          "cpp_batch_body_per_run_ns": 110148.34,
+          "cpp_batch_process_ns": 14095708,
+          "cpp_parse_ns": 30250
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 53650500,
+          "rtl_process_ns": 63561875,
+          "cpp_single_body_ns": 158792,
+          "cpp_process_ns": 2850708,
+          "cpp_batch_body_per_run_ns": 118057.91,
+          "cpp_batch_process_ns": 14197625,
+          "cpp_parse_ns": 29584
+        }
+      ],
+      "median_rtl_body_ns": 55246917,
+      "median_cpp_body_ns": 181000,
+      "median_cpp_batch_body_ns": 115512.91,
+      "body_speed_ratio": 305.2315856353591,
+      "median_rtl_process_ns": 64650292,
+      "median_cpp_process_ns": 3020250,
+      "process_speed_ratio": 21.405609469414784,
+      "cpp_last_rising_time": 4225,
+      "cpp_steps": 421,
+      "cpp_skipped": 0
+    },
+    {
+      "run": "full-software",
+      "endpoint_time": 4430,
+      "fixture_sha256": {
+        "instructions.json": "1191e943ef15c28a5be2b009beb02eabac127ab57be533262b400725f3f3bb2f",
+        "matmul.metadata": "b85b8681737e2963d6cfff9d4b2af5b683174a3eddad1598afca36841fdbe4f7",
+        "matmul.data": "c8284935337f93859319c4e69f675bde990ecc2e95cf49b201cd73f2524205a7",
+        "oracle.json": "37610aa9ee556cd7196804ba1dea8d74811c139d371ceb2a967d0170ce6de83c"
+      },
+      "program_sha256": "acda17e8070de4f788d5cfedc46b50ea65fb0ef3262b1763ef700aa77d5d1250",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 62400625,
+          "rtl_process_ns": 71552708,
+          "cpp_single_body_ns": 174709,
+          "cpp_process_ns": 3151875,
+          "cpp_batch_body_per_run_ns": 120895.0,
+          "cpp_batch_process_ns": 14752542,
+          "cpp_parse_ns": 30083
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 56447041,
+          "rtl_process_ns": 66250583,
+          "cpp_single_body_ns": 165292,
+          "cpp_process_ns": 2810541,
+          "cpp_batch_body_per_run_ns": 113794.17,
+          "cpp_batch_process_ns": 13584084,
+          "cpp_parse_ns": 25584
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 56618416,
+          "rtl_process_ns": 66147375,
+          "cpp_single_body_ns": 166791,
+          "cpp_process_ns": 3145000,
+          "cpp_batch_body_per_run_ns": 118496.67,
+          "cpp_batch_process_ns": 14341375,
+          "cpp_parse_ns": 28167
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 57369167,
+          "rtl_process_ns": 67332459,
+          "cpp_single_body_ns": 171458,
+          "cpp_process_ns": 2946500,
+          "cpp_batch_body_per_run_ns": 115547.09,
+          "cpp_batch_process_ns": 14012958,
+          "cpp_parse_ns": 26583
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 55990917,
+          "rtl_process_ns": 65764333,
+          "cpp_single_body_ns": 167000,
+          "cpp_process_ns": 2841042,
+          "cpp_batch_body_per_run_ns": 114145.41,
+          "cpp_batch_process_ns": 13870541,
+          "cpp_parse_ns": 27375
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 55399542,
+          "rtl_process_ns": 64977083,
+          "cpp_single_body_ns": 168125,
+          "cpp_process_ns": 3258292,
+          "cpp_batch_body_per_run_ns": 113888.34,
+          "cpp_batch_process_ns": 13687542,
+          "cpp_parse_ns": 28708
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 56528083,
+          "rtl_process_ns": 65604667,
+          "cpp_single_body_ns": 176250,
+          "cpp_process_ns": 3349792,
+          "cpp_batch_body_per_run_ns": 118954.58,
+          "cpp_batch_process_ns": 14264583,
+          "cpp_parse_ns": 28416
+        }
+      ],
+      "median_rtl_body_ns": 56528083,
+      "median_cpp_body_ns": 168125,
+      "median_cpp_batch_body_ns": 115547.09,
+      "body_speed_ratio": 336.2265159851301,
+      "median_rtl_process_ns": 66147375,
+      "median_cpp_process_ns": 3145000,
+      "process_speed_ratio": 21.032551669316376,
+      "cpp_last_rising_time": 4425,
+      "cpp_steps": 441,
+      "cpp_skipped": 0
+    },
+    {
+      "run": "timing-bound",
+      "endpoint_time": 35150,
+      "fixture_sha256": {
+        "instructions.json": "53c0840d8c11219c95fe0cde90955fd07583e58bcbfa71fc4525c49d1fb73f15",
+        "matmul.metadata": "b85b8681737e2963d6cfff9d4b2af5b683174a3eddad1598afca36841fdbe4f7",
+        "matmul.data": "08aed38272932c53a7395f034e418d3f62b052b0750a2983d430ce45728bc2b6",
+        "oracle.json": "e089bd8eea8b87f4d6ab81b3926bd1a58a0fc5f5acef2127872453379b3d98a6"
+      },
+      "program_sha256": "3651396184b9ee7a227b4f265fbf174d702ec6ad42ea00171730d2446297174f",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 513016666,
+          "rtl_process_ns": 522676875,
+          "cpp_single_body_ns": 168458,
+          "cpp_process_ns": 3232791,
+          "cpp_batch_body_per_run_ns": 115912.92,
+          "cpp_batch_process_ns": 14196000,
+          "cpp_parse_ns": 28417
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 436174583,
+          "rtl_process_ns": 446004792,
+          "cpp_single_body_ns": 196167,
+          "cpp_process_ns": 3049125,
+          "cpp_batch_body_per_run_ns": 125159.59,
+          "cpp_batch_process_ns": 15872292,
+          "cpp_parse_ns": 31458
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 427137459,
+          "rtl_process_ns": 437146541,
+          "cpp_single_body_ns": 183375,
+          "cpp_process_ns": 2841417,
+          "cpp_batch_body_per_run_ns": 120437.08,
+          "cpp_batch_process_ns": 14393625,
+          "cpp_parse_ns": 30084
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 425492417,
+          "rtl_process_ns": 434571542,
+          "cpp_single_body_ns": 183584,
+          "cpp_process_ns": 2986333,
+          "cpp_batch_body_per_run_ns": 119127.92,
+          "cpp_batch_process_ns": 15008833,
+          "cpp_parse_ns": 30250
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 430363791,
+          "rtl_process_ns": 439841166,
+          "cpp_single_body_ns": 190500,
+          "cpp_process_ns": 2987041,
+          "cpp_batch_body_per_run_ns": 117192.92,
+          "cpp_batch_process_ns": 14493292,
+          "cpp_parse_ns": 32666
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 430821167,
+          "rtl_process_ns": 440734084,
+          "cpp_single_body_ns": 201792,
+          "cpp_process_ns": 3148166,
+          "cpp_batch_body_per_run_ns": 115526.67,
+          "cpp_batch_process_ns": 14796500,
+          "cpp_parse_ns": 30250
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 430243625,
+          "rtl_process_ns": 439787042,
+          "cpp_single_body_ns": 177375,
+          "cpp_process_ns": 3121083,
+          "cpp_batch_body_per_run_ns": 116031.25,
+          "cpp_batch_process_ns": 14279625,
+          "cpp_parse_ns": 32459
+        }
+      ],
+      "median_rtl_body_ns": 430363791,
+      "median_cpp_body_ns": 183584,
+      "median_cpp_batch_body_ns": 117192.92,
+      "body_speed_ratio": 2344.233653259543,
+      "median_rtl_process_ns": 439841166,
+      "median_cpp_process_ns": 3049125,
+      "process_speed_ratio": 144.25160201697207,
+      "cpp_last_rising_time": 35145,
+      "cpp_steps": 441,
+      "cpp_skipped": 3072
+    },
+    {
+      "run": "store-spacing",
+      "endpoint_time": 4150,
+      "fixture_sha256": {
+        "instructions.json": "3643dc23a83598377cb6d65f85ed05dd5408373e7bcfd8dcb63032edeeb2d00c",
+        "matmul.metadata": "b85b8681737e2963d6cfff9d4b2af5b683174a3eddad1598afca36841fdbe4f7",
+        "matmul.data": "0f3d3d22ac2df9f9805eb9eee5654ab1d23b80275f947814e4ecf129c6f621f3",
+        "oracle.json": "9d1ceef179e51897b3f99232b7ec5e7920616b0c31d014399a3353f36406064a"
+      },
+      "program_sha256": "5a4c1acafe043ee2618a7b4cb418581256a54a3370493d2c7e59fe38c18fdacc",
+      "execution_validation_receipt_sha256": "ef0c4fdb9c6e1e8f604726677349070445a05983f80e123ed0dee25fa36d0bfa",
+      "rtl_output_oracle_words": 128,
+      "samples": [
+        {
+          "repetition": 0,
+          "rtl_body_ns": 52390334,
+          "rtl_process_ns": 61947333,
+          "cpp_single_body_ns": 155708,
+          "cpp_process_ns": 3094666,
+          "cpp_batch_body_per_run_ns": 110542.5,
+          "cpp_batch_process_ns": 13473250,
+          "cpp_parse_ns": 26750
+        },
+        {
+          "repetition": 1,
+          "rtl_body_ns": 53122417,
+          "rtl_process_ns": 62322375,
+          "cpp_single_body_ns": 163500,
+          "cpp_process_ns": 3059916,
+          "cpp_batch_body_per_run_ns": 105425.42,
+          "cpp_batch_process_ns": 13542459,
+          "cpp_parse_ns": 29375
+        },
+        {
+          "repetition": 2,
+          "rtl_body_ns": 52363333,
+          "rtl_process_ns": 61743166,
+          "cpp_single_body_ns": 156625,
+          "cpp_process_ns": 3266625,
+          "cpp_batch_body_per_run_ns": 109532.08,
+          "cpp_batch_process_ns": 13313084,
+          "cpp_parse_ns": 27916
+        },
+        {
+          "repetition": 3,
+          "rtl_body_ns": 56755958,
+          "rtl_process_ns": 65786958,
+          "cpp_single_body_ns": 194417,
+          "cpp_process_ns": 3474958,
+          "cpp_batch_body_per_run_ns": 110244.17,
+          "cpp_batch_process_ns": 13653834,
+          "cpp_parse_ns": 29417
+        },
+        {
+          "repetition": 4,
+          "rtl_body_ns": 55619583,
+          "rtl_process_ns": 64978208,
+          "cpp_single_body_ns": 180625,
+          "cpp_process_ns": 2928542,
+          "cpp_batch_body_per_run_ns": 117379.17,
+          "cpp_batch_process_ns": 14547208,
+          "cpp_parse_ns": 30416
+        },
+        {
+          "repetition": 5,
+          "rtl_body_ns": 55608584,
+          "rtl_process_ns": 64987542,
+          "cpp_single_body_ns": 180375,
+          "cpp_process_ns": 2950458,
+          "cpp_batch_body_per_run_ns": 106023.75,
+          "cpp_batch_process_ns": 13650125,
+          "cpp_parse_ns": 29750
+        },
+        {
+          "repetition": 6,
+          "rtl_body_ns": 53104458,
+          "rtl_process_ns": 62464750,
+          "cpp_single_body_ns": 152542,
+          "cpp_process_ns": 3000750,
+          "cpp_batch_body_per_run_ns": 109589.58,
+          "cpp_batch_process_ns": 13282125,
+          "cpp_parse_ns": 26667
+        }
+      ],
+      "median_rtl_body_ns": 53122417,
+      "median_cpp_body_ns": 163500,
+      "median_cpp_batch_body_ns": 109589.58,
+      "body_speed_ratio": 324.907749235474,
+      "median_rtl_process_ns": 62464750,
+      "median_cpp_process_ns": 3059916,
+      "process_speed_ratio": 20.413877374411584,
+      "cpp_last_rising_time": 4145,
+      "cpp_steps": 413,
+      "cpp_skipped": 0
+    }
+  ],
+  "repetitions": 7,
+  "warmup_runs": 1,
+  "cpp_batch_repetitions": 100,
+  "body_measurement": "RTL stepping from reset release through endpoint; C++ constructs fresh timing state and runs same program through endpoint, retaining in-memory event records. Headline body ratio uses one execution per fresh process on both sides; separately recorded 100-run batches diagnose amortization. Parsing, compilation and output serialization excluded.",
+  "process_measurement": "One fresh process and one program execution per sample, including startup, parsing, initialization, result formatting and cleanup.",
+  "rtl_diagnostic_printing": "Two VL_FWRITEF_NX runtime helper bodies disabled; unchanged emitted RTL archive. Waveform and host log sinks disabled.",
+  "numeric_payload": "RTL computes payloads; C++ omits payloads, retaining instruction/address/control state. Independent RTL oracle checked outside measured samples.",
+  "initial_state_artifact_sha256": "f12368453a514fa8a9d55d2a146c6a780056d711b1067e140ee281aeebe1b135",
+  "executable_sha256": {
+    "rtl_benchmark": "a1fd2de951f2b5da2d21e19dc03e61e36172b0dc99223bfe0bf2f65dbdd52765",
+    "event_benchmark": "9d80c9489dbebb19685a7bf17d03c915d9e274d34b9fc76bd5b7cd5ed647afcc"
+  },
+  "source_sha256": {
+    "event_simulator/memory_system.hpp": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2",
+    "event_simulator/benchmark_execution.cpp": "369dac4f5ecb57baf06f36255d34969f0b4bbce602d0ae36ea48e7a2492470be",
+    "dual_approach/top_down/execution_system.hpp": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5"
+  },
+  "not_claimed": "Arbitrary instruction schedules, other architectures, data-dependent control, or unseen initial cache states"
+}

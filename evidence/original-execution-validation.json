@@ -1,0 +1,302 @@
+[
+  {
+    "run": "original",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3585
+    ],
+    "completion": 35070,
+    "steps": 3505,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "c5d88532a9dd6c9aa2092ec8c31765c1f8877cd5964b2d2c2768c6af611dc7dd",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "delay1",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 178,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3625
+    ],
+    "completion": 4190,
+    "steps": 417,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "8d627f2d5eff650799bba6d1d4e5077b4de66c1e6b6f422da51b291f8fe1dac0",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "delay16",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 238,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      4225
+    ],
+    "completion": 4225,
+    "steps": 421,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "12a92e93dd00941e0fe283e9cd37e22650c844b22e82708a759b14cb4cf97a25",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "full-software",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      4115
+    ],
+    "completion": 4430,
+    "steps": 441,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "20529a6b24d1c5573e07feb0d4fb660be542c8aab87925ccfbb629d9b96b5a58",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "timing-bound",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3665
+    ],
+    "completion": 35150,
+    "steps": 3513,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "9d2b48a7046a4eed099390d6dae730455880c0cd8fc2ee0cb1a1ce650a840156",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "store-spacing",
+    "mode": "cycle",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3625
+    ],
+    "completion": 4150,
+    "steps": 413,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "25dd7d938aefccf6232858c8507878af97742b5ff10a9cf2e96552a05cce6de0",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "original",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3585
+    ],
+    "completion": 35070,
+    "steps": 433,
+    "skipped": 3072,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "c5d88532a9dd6c9aa2092ec8c31765c1f8877cd5964b2d2c2768c6af611dc7dd",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "delay1",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 178,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3625
+    ],
+    "completion": 4190,
+    "steps": 417,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "8d627f2d5eff650799bba6d1d4e5077b4de66c1e6b6f422da51b291f8fe1dac0",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "delay16",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 238,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      4225
+    ],
+    "completion": 4225,
+    "steps": 421,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "12a92e93dd00941e0fe283e9cd37e22650c844b22e82708a759b14cb4cf97a25",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "full-software",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      4115
+    ],
+    "completion": 4430,
+    "steps": 441,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "20529a6b24d1c5573e07feb0d4fb660be542c8aab87925ccfbb629d9b96b5a58",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "timing-bound",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3665
+    ],
+    "completion": 35150,
+    "steps": 441,
+    "skipped": 3072,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "9d2b48a7046a4eed099390d6dae730455880c0cd8fc2ee0cb1a1ce650a840156",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  },
+  {
+    "run": "store-spacing",
+    "mode": "skip",
+    "execution_match": true,
+    "execution_events": 174,
+    "first_difference": [],
+    "write_match": true,
+    "writes": 16,
+    "host_match": true,
+    "host": [
+      3625
+    ],
+    "completion": 4150,
+    "steps": 413,
+    "skipped": 0,
+    "recorded_timing_inputs": [],
+    "initial_state": [
+      16,
+      10
+    ],
+    "input_sha256": "25dd7d938aefccf6232858c8507878af97742b5ff10a9cf2e96552a05cce6de0",
+    "executable_sha256": "f399e15cf60f73d455df7c33f3e86164a0c739bc01f9bb7aafb45a0b03165444",
+    "execution_header_sha256": "80b33beca0e29aefa43f25cb87c4b3fccde331e3b751a07b5297325d6b2bedf5",
+    "memory_header_sha256": "3102762f78035612ae032a6ffa2490ea964b597c3f5468e7748bb2dd5d076ff2"
+  }
+]

@@ -1,0 +1,26 @@
+Ventus Timing Simulator
+Copyright (c) 2026 memxlife
+
+The standalone timing model adapts behavior from Ventus GPGPU:
+https://github.com/THU-DSP-LAB/ventus-gpgpu
+Pinned commit: 681172541a8a34ffb43c483a19c075acbc11a4eb
+Copyright (c) 2021-2022 International Innovation Center of Tsinghua University, Shanghai
+Ventus is licensed under Mulan PSL v2. Its full license and original NOTICE
+are preserved in licenses/. The upstream NOTICE describes exceptions for
+particular files; those files are not copied into this package.
+
+The memory timing model also adapts behavior of the inclusive cache:
+https://github.com/chipsalliance/rocket-chip-inclusive-cache
+Pinned commit: e5c74c0170c156cbe540fb597381e1a29fcf8248
+Copyright 2019 SiFive, Inc.
+Licensed under Apache License, Version 2.0; full terms are in
+licenses/Apache-2.0.txt. The upstream copyright and disclaimer are retained
+there. This is a new timing-only C++ representation, not the upstream RTL.
+
+Modifications include a bounded payload-free C++ model, explicit initial
+cache state, cycle skipping, the corrected falling-edge completion boundary,
+and standalone build, fixture validation and documentation.
+
+Historical benchmark results reference Verilator 5.050. No Verilator source,
+upstream host driver, emitted RTL, compiled archive, or waveform is included.
+The project has no upstream endorsement and receives no trademark rights.

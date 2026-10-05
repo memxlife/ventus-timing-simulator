@@ -1,0 +1,10 @@
+{
+  "scope": "Pinned generated RTL and current seed10086 simulator run family",
+  "response_fifo_source_words": [16, 10],
+  "source_word_width": 5,
+  "mshr_selector_uses_low_bits": 2,
+  "provenance": "Initial empty head reports16; after first FIFO dequeue untouched second slot reports10. No prior write to slot1. Values recovered as an initial-state observation, not computed from seed.",
+  "reset_rule": "Queue pointers and validity reset; ram_2x1029 data has no reset and generated random initialization. R0_en always1 even while empty.",
+  "not_universal": "A different seed, executable or RTL initialization policy may give different source words and different secondary-miss behavior. Pass this state explicitly; do not treat it as an architecture constant.",
+  "evidence": "icache-redundant-changes.tsv; generated GPGPU_SimTop.v Queue2_ICacheMemRsp and ram_2x1029"
+}
